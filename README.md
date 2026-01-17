@@ -32,9 +32,3 @@ The backend provides authentication, company management, branch management, and 
 - react-router-dom
 - Fetch API
 - CSS
-
-## ⚙️ Setup Instructions
-
-1. Install dependencies:
-   ```bash
-   npm install
