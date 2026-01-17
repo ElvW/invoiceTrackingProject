@@ -1,0 +1,8 @@
+html, body, #root {
+    font-family: "Nunito";
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #456882;
+    color: #D2C1B6;
+}

@@ -1,0 +1,64 @@
+.branch-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.branch-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1B3C53;
+    width: 10%;
+    min-height: 200px;
+    min-width: 200px;
+    min-width: 75;
+    background-color: #D2C1B6;
+    transition: 
+        margin 0.3s ease,
+        filter 0.3s ease;
+}
+
+.branch-div:hover {
+    filter: brightness(1.1);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.branch-div button {
+    height: 30px;
+    color: #1B3C53;
+    font-size: 15px;
+    width: 100%;
+    background-color: #a79a91;
+    border: none;
+}
+
+.branch-div button:hover {
+    opacity: 0.8;
+}
+
+.branch-div p {
+    padding: 10px;
+}
+
+.branch-container > button {
+    color: #1B3C53;
+    font-weight: 500;
+    font-size: 40px;
+    border: none;
+    margin-top: 50px;
+    background-color: #D2C1B6;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3 ease;
+}
+
+.branch-container > button:hover {
+    filter: brightness(1.1);
+}
+
+.branch-container > button:active {
+    opacity: 0.8;
+}

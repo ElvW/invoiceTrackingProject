@@ -1,0 +1,39 @@
+.home-page {
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page * {
+    padding-top: 10px;
+}
+
+.home-page > p {
+    padding: 0;
+    color: #D2C1B6;
+    font-size: 150%;
+}
+
+.home-page > .welcome-text {
+    font-size: 400%;
+    margin: 0;
+}
+
+.home-page > button {
+    font-weight: 700;
+    border: none;
+    color: #D2C1B6;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #1c4a6b;
+}
+
+.home-page > button:hover {
+    opacity: 0.8;
+}
+
+.home-page > button:active {
+    opacity: 0.4;
+}

@@ -1,0 +1,55 @@
+.nav-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    background-color: #1B3C53;
+}
+
+.nav-header > nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header > button {
+    color: #D2C1B6;
+    font-weight: 700;
+    width: 5%;
+    height: 100%;
+    background-color: #1c4a6b;
+    border: none;
+    transition: all 0.5 ease;
+}
+
+.nav-header > button:hover {
+    opacity: 0.8;
+}
+
+.nav-header > button:active {
+    opacity: 0.4;
+}
+
+.link {
+    color: #D2C1B6;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-right: solid 3px #D2C1B6;
+    transition: 0.3s ease;
+}
+
+.link:hover {
+    padding: 0px 20px;
+}
+
+.link.app-name {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    
+}
